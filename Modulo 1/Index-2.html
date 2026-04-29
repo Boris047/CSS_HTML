@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <link rel="shortcut icon" href="htm_image_resized.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b> termo em negrito</b> usando a tag &lt;b&gt; (Não semantica).</p>
+
+    <!-- Tags não semanticas  dizem a respeito do visual do texto por exemplo de ela sera em negrito <b> ou italico <i>, diferente de tags semanticas como <header> (cabeçalho) ou <strong>(importante)-->
+    
+    <p>Nessa frase temos um <strong>termo em negrito</strong> utilizando  a tag &lt;strong&gt; (semantico).</p> 
+    
+    <h1>Falando sobre mmarca textos</h1>
+    <p>Podemos criar também <mark>Um texto marcado</mark> utilizando a tag &lt;Mark&gt;</p>
+    <p>Podemos criar também <mark style="background-color: aqua;">Um texto marcado</mark> utilizando a tag &lt;Mark&gt; e um css para estilo, acrescentando um style dento do "parentese" da seguinte forma &lt;mark style="background-color:blue"</p>
+    <h1>MOMENTO LEMBRETE!!!!!!</h1>
+    <p>Caracteristica de style não sao erdadas ou seja o style criado dento de uma linha especifica do codigo <strong>NÃO SÃO ERDADAS PARA AS PROXIMAS LINHAS!!!!!</strong> para isso utilizamos o espaço head no inicio do codigo para definir estilos. <br>
+    EX: <br>
+    <pre>
+    <code>&lt;head&gt;
+        &lt;style&gt;
+            mark {
+                background-color: blue;
+                }
+        &lt;style&gt;</code>  
+        </pre>      </p>
+
+    <h1>Sobre citações e codigos</h1>
+    <p>Como visto no exemplo anterior, colocamos um "codigo" dentro do nosso texto.<br>
+    Porem como fizemos isso ?<br>
+    Utilizando a tag &lt;pre&gt; para que o texto respeite a fomatação escrita dentro do compilador no caso o VSCode.<br>
+    Tambem usamos a tag &lt;code&gt;, para manter o texto com um espaçamento igual, onde todos os caracteres ocupam o mesmo espaço.</p>
+    
+</body>
+</html>
