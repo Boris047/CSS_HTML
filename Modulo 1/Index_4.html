@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+    <link rel="shortcut icon" href="htm_image_resized.png" type="image/x-icon">
+</head>
+<body>
+    <header><h1>Imagens Dinâmicas</h1></header>
+    <body>
+        <P>Nessa pagina vamos ver imagens dinamicas baseadas no tamanho da pagina</P>
+        <picture>
+            <source media="(max-width:750px )" srcset="imagens/imagem-p.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="imagens/imagem-m.png" type="image/png">
+            <img src="imagens/Imagem-Gpng.png" alt="Imagem grande">
+        </picture>
+    </body>
+    <header><h1>Audios</h1></header>
+    <body>
+        <p>E possivel adicionar audios no site da seguinte forma:</p>
+    </body>
+    <audio src="Audios/Sour Tennessee Red (Sting) - John Deley and the 41 Players.mp3" controls></audio>
+     
+    <header><h1>Videos</h1></header>
+    <body>
+        <p>E possivel adicionar videos no site hospedados localmente da seguinte forma:</p>
+        <video src="video/Sequência 01.mp4" controls width="600" height="500"></video>
+    </body>
+    <header><h1>Videos </h1></header>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x5Dm5FcvIOw?si=sR3smamixO5M9x9R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+/*
+ Em HTML é ID    = Em CSS é #
+ Em HTML é CLass = em CSSé .
+*/
+
+*{ 
+ font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+ body {
+     background-color: #d6c361;
+ }
+
+ h1 {
+    color:#504C38;
+ }
+
+ .Basico {
+    color: #ffffff;
+     background-color: #95884F;
+     padding: 6px;
+     border-radius: 10px;
+ }
+
+ .Bold {
+    color: #1000A0;
+    font-weight: bold;
+ }
+ #titulo-principal {
+    text-align: center;
+    color: #ffffff;
+    background-color: #322F23;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ h2 {
+    color: #5B5330;
+ }

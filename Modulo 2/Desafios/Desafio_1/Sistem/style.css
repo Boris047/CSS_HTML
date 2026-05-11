@@ -1,0 +1,188 @@
+@font-face {
+    font-family: idroid ;
+    src: url(../fontes/idroid.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.h1_main {
+    font-family: idroid;
+    color: #001D84;
+    font-size: 30px;
+    text-shadow: 2px 2px 05px #00000077;
+}
+
+.h2_main {
+    font-family: idroid;
+    color: #001D84;
+    font-size: 24px;
+    background-image: linear-gradient( to top, #1A40E0, #ffffff);
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, ul, p {
+    padding: 20px;
+}
+
+body{
+    background-color: #99A5CF;
+    display: flex;
+    flex-direction: column;
+}
+
+body > main{
+    align-self: center;
+}
+
+.destaque {
+    color: rgb(2, 212, 2);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+header{
+    background-image: linear-gradient(to top, #001D84, #4D69CA);
+    height: 80px;
+    display: grid;
+    gap: 16px;
+    height: fit-content;
+    padding: 16px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header > h4{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: 6px;
+}
+
+nav > a{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+nav > a:hover{
+    color: #243b85;
+    background-color: #92c3f0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    max-width: 80%;
+}
+
+main > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #194B7A;
+    padding: 14px;
+    width: 90%;
+    border-radius: 12px;
+}
+
+#youtube_v{
+    width: 80%;
+    height: 300px;
+}
+
+#l_box {
+    display: flex;
+    margin: 30px;
+    align-items: normal;
+    flex-direction: column;
+    background-color: #ABB9C6;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #00000077;
+
+}
+
+#l_box > h3{
+    max-width: 100%;
+    background-color: #001D84;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#l_box > p{
+    padding: 20px;
+    color: #000000;
+    font-family: arial;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: #00000033 1px 1px 2px;
+}
+
+
+#List_final{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #ABB9C6;
+    height: fit-content;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+div > ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer{
+    background-color:#001D84;
+    height: 80px;
+    display: grid;
+    gap: 16px;
+    height: fit-content;
+    padding: 16px;
+    margin-top: 20px;}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
