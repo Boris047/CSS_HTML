@@ -1,0 +1,20 @@
+.quadrado{
+    background-image: url('imagens-cap19/wallpaper003.jpg');
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    height: 100px;
+}
+
+    #q1{
+        background-position: left top;
+    }
+    #q2{
+        background-position: left center;
+    }
+    #q3{
+        background-position: right bottom;
+    }
+    #q4{
+        background-position: center center;
+    }
