@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+    background-image: url('../Exer_1_Imagens_e_alinhamento/imagens-cap19/wallpaper002.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: rgb(8, 48, 252) 2px solid;
+    border-radius: 15px;
+}
