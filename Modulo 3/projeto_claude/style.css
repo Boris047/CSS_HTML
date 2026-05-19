@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Satoshi';
+    src:url(./fontes/Satoshi_Complete/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Satoshi_m';
+    src:url(./fontes/Satoshi_Complete/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.ttf) format(truetype);
+    font-weight: 300;
+    font-size: Small;
+}
+ 
+
+*{
+    font-family: inter, satoshi;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header > section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section > nav{
+    background-color: rgba(255, 255, 255, 0.034);
+    margin-right: 16px;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    border-radius: 12px;
+    text-decoration: none;
+    gap: 24px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+body{
+    background-image: linear-gradient(to right bottom, #000000,#4c328a);
+    background-attachment: fixed;
+    font-family: 'Satoshi', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+
+
+#img_1{
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.HL_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+section > h1{
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+section > h2{
+    color:white;
+    font-weight: 300;
+    font-size: large;
+    text-align: center;
+}
+
