@@ -19,6 +19,16 @@
     box-sizing: border-box;
 }
 
+h2{
+    color: white;
+}
+
+p{
+    font-weight: 400;
+    font-size: larger;
+    color: white;
+}
+
 header > section{
     display: flex;
     flex-direction: row;
@@ -62,15 +72,14 @@ nav{
     max-height: 120px;
 }
 
-.HL_1{
+#HL_1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
-
-
 
 section > h1{
     color:white;
@@ -86,3 +95,27 @@ section > h2{
     text-align: center;
 }
 
+main{
+    padding: 8%;
+}
+
+#foto_dev{
+    max-width: 230px;
+    max-height: 230px;
+    border-radius: 150px;
+}
+
+
+#sobre_mim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+#stack{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
